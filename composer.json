@@ -1,0 +1,42 @@
+{
+  "name": "xjdata/aliyun-open-api-dm",
+  "description": "The Directmail SDK for Aliyun OpenAPI",
+  "keywords": [
+    "aliyun",
+    "directmail",
+    "php",
+    "sdk"
+  ],
+  "homepage": "https://github.com/xjdata/php-aliyun-open-api-dm.git",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "xjdata",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "lokielse/aliyun-open-api-core": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\Dm\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aliyun\\Dm\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+    }
+  }
+}
